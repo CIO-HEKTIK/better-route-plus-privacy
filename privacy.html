@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Better Route Plus privacy policy</title>
+  <meta name="description" content="Privacy policy for Better Route Plus, published by Valley Software. Effective November 6, 2026.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <p class="publisher"><a href="index.html">Valley Software</a></p>
+      <p class="product">Better Route Plus</p>
+      <nav class="site-nav" aria-label="Pages">
+        <ul>
+          <li><a href="index.html">Support</a></li>
+          <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="wrap">
+    <h1>Privacy policy</h1>
+    <p class="lede">This policy describes how the Better Route Plus app on iPhone and iPad handles information.</p>
+    <p class="meta">Effective November 6, 2026. Publisher: Valley Software.</p>
+
+    <div class="note">
+      <p>Better Route Plus is a business tool for invoicing, credits, and payments. It syncs with a SlowBooks server that you configure. The app does not send that information to a Valley Software server.</p>
+    </div>
+
+    <nav class="toc" aria-label="On this page">
+      <ol>
+        <li><a href="#device">On-device database</a></li>
+        <li><a href="#database-failure">If the database cannot be used</a></li>
+        <li><a href="#token">API token</a></li>
+        <li><a href="#camera">Camera</a></li>
+        <li><a href="#network">Network and your server</a></li>
+        <li><a href="#printing">Printing</a></li>
+        <li><a href="#exports">Exports</a></li>
+        <li><a href="#not-included">What the app does not include</a></li>
+        <li><a href="#backup">Device backup</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <section id="device" aria-labelledby="device-heading">
+      <h2 id="device-heading">On-device database</h2>
+      <p>The app stores these records in a database on the device:</p>
+      <ul>
+        <li>Customers</li>
+        <li>Items</li>
+        <li>Accounts</li>
+        <li>Invoices</li>
+        <li>Credits</li>
+        <li>Payments</li>
+        <li>Notes</li>
+        <li>The pending sync queue</li>
+        <li>The server address</li>
+        <li>Preferences</li>
+        <li>A local invoice counter</li>
+      </ul>
+      <p>The API token is not stored in this database.</p>
+    </section>
+
+    <section id="database-failure" aria-labelledby="database-failure-heading">
+      <h2 id="database-failure-heading">If the database cannot be used</h2>
+      <p>If the on-device database cannot be used, the app warns you and uses session memory.</p>
+    </section>
+
+    <section id="token" aria-labelledby="token-heading">
+      <h2 id="token-heading">API token</h2>
+      <p>The API token is stored in the iOS Keychain. That Keychain item is not synchronizable and is not shared. It is available after the first unlock of the device. It is not marked this-device-only, so a normal device backup may include it.</p>
+    </section>
+
+    <section id="camera" aria-labelledby="camera-heading">
+      <h2 id="camera-heading">Camera</h2>
+      <p>The camera is used to read barcode and QR code text. The app does not store photos or videos from the camera.</p>
+    </section>
+
+    <section id="network" aria-labelledby="network-heading">
+      <h2 id="network-heading">Network and your server</h2>
+      <p>The app contacts only the SlowBooks server you choose. It does not contact a Valley Software server. There is no preconfigured server address or API token.</p>
+      <p>HTTPS is the default. The app uses HTTP only if you explicitly opt in for a trusted network.</p>
+      <p>Authenticated calls send the API token as a bearer token. A reachability check may omit the token. The network session does not keep cookies on disk.</p>
+      <p>On the server you choose, the app reads and writes:</p>
+      <ul>
+        <li>Settings</li>
+        <li>Customers</li>
+        <li>Items</li>
+        <li>Accounts</li>
+        <li>Invoices</li>
+        <li>Credit memos</li>
+        <li>Payments</li>
+      </ul>
+      <p>The operator of that server receives the information you sync and governs the server, including how the operator keeps and uses that information.</p>
+    </section>
+
+    <section id="printing" aria-labelledby="printing-heading">
+      <h2 id="printing-heading">Printing</h2>
+      <p>Printing uses a paired external accessory, AirPrint, or a PDF shared to a destination you select. Printed output and shared PDFs go to that destination. They are not sent to Valley Software.</p>
+      <p>The app saves the last accessory serial number, connection identifier, printer width, and printer language.</p>
+    </section>
+
+    <section id="exports" aria-labelledby="exports-heading">
+      <h2 id="exports-heading">Exports</h2>
+      <p>The app can make temporary spreadsheets of print history or pending payments and pass them to the system share sheet. You select the destination. A spreadsheet may contain names, dates, totals, invoice numbers, payment method, check number, and amounts.</p>
+    </section>
+
+    <section id="not-included" aria-labelledby="not-included-heading">
+      <h2 id="not-included-heading">What the app does not include</h2>
+      <p>Better Route Plus does not include:</p>
+      <ul>
+        <li>An analytics service</li>
+        <li>A crash-reporting service</li>
+        <li>Advertising</li>
+        <li>Tracking</li>
+        <li>iCloud</li>
+        <li>CloudKit</li>
+        <li>A shared Keychain</li>
+        <li>A card reader</li>
+        <li>A preconfigured server address or API token</li>
+        <li>A cloud backup operated by Valley Software</li>
+      </ul>
+    </section>
+
+    <section id="backup" aria-labelledby="backup-heading">
+      <h2 id="backup-heading">Device backup</h2>
+      <p>Valley Software does not operate a cloud backup for the app. The on-device database is not excluded from a normal device backup. Those backups are controlled by Apple and by the backup settings on the device. A normal device backup may also include the API token stored in the Keychain.</p>
+    </section>
+
+    <section id="children" aria-labelledby="children-heading">
+      <h2 id="children-heading">Children</h2>
+      <p>Better Route Plus is a business tool. It is not intended for children, and it does not offer a child profile.</p>
+    </section>
+
+    <section id="changes" aria-labelledby="changes-heading">
+      <h2 id="changes-heading">Changes</h2>
+      <p>When this policy changes, Valley Software will update the effective date on this page.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Questions about this policy, or requests about information the publisher can address, can be sent to Valley Software at <a href="mailto:CIO@hektikoptics.com">CIO@hektikoptics.com</a>.</p>
+      <p>Information synced to the SlowBooks server you chose is received by that server’s operator. Questions about how that server stores or deletes synced information go to the operator who governs it.</p>
+      <p><a href="index.html">Return to support</a>.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Valley Software</p>
+      <p><a href="mailto:CIO@hektikoptics.com">CIO@hektikoptics.com</a></p>
+      <p>Better Route Plus privacy policy, effective November 6, 2026.</p>
+    </div>
+  </footer>
+</body>
+</html>

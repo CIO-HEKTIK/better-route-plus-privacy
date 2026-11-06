@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Better Route Plus support</title>
+  <meta name="description" content="Support for Better Route Plus, an iPhone and iPad app for invoicing, credits, and payments from Valley Software.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <p class="publisher"><a href="index.html">Valley Software</a></p>
+      <p class="product">Better Route Plus</p>
+      <nav class="site-nav" aria-label="Pages">
+        <ul>
+          <li><a href="index.html" aria-current="page">Support</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="wrap">
+    <h1>Support</h1>
+    <p class="lede">Better Route Plus is an iPhone and iPad app for invoicing, credits, and payments. It syncs with a SlowBooks server that you configure.</p>
+    <p class="meta">Published by Valley Software. Privacy policy effective November 6, 2026.</p>
+
+    <nav class="note toc" aria-label="On this page">
+      <ol>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#server">The server you choose</a></li>
+        <li><a href="#device">Information on this device</a></li>
+        <li><a href="#camera">Camera</a></li>
+        <li><a href="#printing">Printing and shared files</a></li>
+        <li><a href="#privacy">Privacy policy</a></li>
+      </ol>
+    </nav>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Email Valley Software at <a href="mailto:CIO@hektikoptics.com">CIO@hektikoptics.com</a> for support or privacy questions.</p>
+      <p>Describe what you were trying to do and what the app did. If the question is about a connection, say whether you expected HTTPS or an HTTP connection on a trusted network. Do not include your API token. Include customer, invoice, or payment details only when they are needed to explain the problem.</p>
+    </section>
+
+    <section id="server" aria-labelledby="server-heading">
+      <h2 id="server-heading">The server you choose</h2>
+      <p>The app contacts only the SlowBooks server whose address you enter. It does not come with a server address or an API token, and it does not contact a Valley Software server.</p>
+      <p>HTTPS is the default. HTTP is used only when you explicitly opt in for a trusted network. Authenticated requests send your API token as a bearer token. A reachability check may omit the token.</p>
+      <p>The app can read and write settings, customers, items, accounts, invoices, credit memos, and payments on that server. The operator of the server you choose receives the synced information and governs that server.</p>
+    </section>
+
+    <section id="device" aria-labelledby="device-heading">
+      <h2 id="device-heading">Information on this device</h2>
+      <p>An on-device database stores customers, items, accounts, invoices, credits, payments, notes, the pending sync queue, the server address, preferences, and a local invoice counter.</p>
+      <p>The API token is stored in the iOS Keychain, not in that database. The Keychain item is not synchronizable and is not shared. It becomes available after the first unlock. It is not limited to this device only, so a normal device backup may include it.</p>
+      <p>If the database cannot be used, the app warns you and uses session memory.</p>
+    </section>
+
+    <section id="camera" aria-labelledby="camera-heading">
+      <h2 id="camera-heading">Camera</h2>
+      <p>The camera reads barcode and QR code text. The app does not store photos or videos from the camera.</p>
+    </section>
+
+    <section id="printing" aria-labelledby="printing-heading">
+      <h2 id="printing-heading">Printing and shared files</h2>
+      <p>You can print with a paired external accessory, with AirPrint, or by sharing a PDF to a destination you select. That output goes to the destination you choose. It is not sent to Valley Software.</p>
+      <p>The app saves the last accessory serial number, connection identifier, printer width, and printer language.</p>
+      <p>You can export a temporary spreadsheet of print history or pending payments through the system share sheet. You choose the destination. The file may contain names, dates, totals, invoice numbers, payment method, check number, and amounts.</p>
+    </section>
+
+    <section id="privacy" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">Privacy policy</h2>
+      <p>The <a href="privacy.html">Better Route Plus privacy policy</a> describes the same behavior in full, including device backup, what the app does not include, and the November 6, 2026 effective date.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Valley Software</p>
+      <p><a href="mailto:CIO@hektikoptics.com">CIO@hektikoptics.com</a></p>
+      <p>Public support and privacy pages for Better Route Plus.</p>
+    </div>
+  </footer>
+</body>
+</html>
